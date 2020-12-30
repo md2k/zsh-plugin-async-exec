@@ -2,7 +2,7 @@
 # Async command execution with zinit ice lucid wait
 # https://github.com/zdharma/zinit/issues/68#issuecomment-570776375
 
-zplg_async() {
+async_exec() {
   name=$1;
   cmd=$2;
   delay=${3:-0}
